@@ -1,4 +1,4 @@
-#<span style="color: #003262;"> • Arduino Block Stacker Game
+# <span style="color: #003262;"> • Arduino Block Stacker Game
 
 An interactive, physical arcade game built with an Arduino Uno, a 4-module LED matrix, an I2C OLED display, and a joystick module. Stack the moving blocks as high as you can without missing!
 
