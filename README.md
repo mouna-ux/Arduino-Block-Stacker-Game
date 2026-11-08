@@ -1,17 +1,17 @@
-# 🕹️ Arduino Block Stacker Game
+# • Arduino Block Stacker Game
 
 An interactive, physical arcade game built with an Arduino Uno, a 4-module LED matrix, an I2C OLED display, and a joystick module. Stack the moving blocks as high as you can without missing!
 
 ---
 
-## 🚀 Features
+## • Features
 * **LED Matrix Display:** Uses a 4-module MD_MAX72xx LED matrix configured in Parola hardware mode with optimized low brightness (`INTENSITY 0`) to run safely on a 9V battery.
 * **OLED Score & Status Screen:** A 128x64 I2C OLED display tracking levels, game status, and final scores in real-time (with 180° rotation and dual-color zone alignment).
 * **Joystick Control:** Precise block placement and game restarts via an integrated joystick push button (`SW`).
 
 ---
 
-## 🛠️ Hardware Requirements
+## • Hardware Requirements
 
 | Component | Quantity | Notes |
 | :--- | :---: | :--- |
@@ -24,7 +24,7 @@ An interactive, physical arcade game built with an Arduino Uno, a 4-module LED m
 
 ---
 
-## 🔌 Wiring Guide
+## • Wiring Guide
 
 ### 1. Power Configuration (9V Battery)
 * **Red Wire (+)** $\rightarrow$ Connected to Arduino **`Vin`**. *Never plug directly into 5V!*
@@ -46,7 +46,7 @@ An interactive, physical arcade game built with an Arduino Uno, a 4-module LED m
 
 ---
 
-## 📦 Required Libraries
+## • Required Libraries
 Make sure you have installed the following libraries via the Arduino IDE Library Manager:
 * [`MD_MAX72xx`](https://github.com/MajicDesigns/MD_MAX72XX)
 * [`Adafruit_GFX`](https://github.com/adafruit/Adafruit-GFX-Library)
@@ -54,7 +54,7 @@ Make sure you have installed the following libraries via the Arduino IDE Library
 
 ---
 
-## 🎮 How to Play
+## • How to Play
 1. Power on the device.
 2. The OLED displays the startup screen, followed by **"Level: 1"** and **"Stacking..."**.
 3. Press the **Joystick Button** to place the moving block onto the tower.
