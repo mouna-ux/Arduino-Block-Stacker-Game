@@ -62,3 +62,9 @@ Make sure you have installed the following libraries via the Arduino IDE Library
 3. Press the **Joystick Button** to place the moving block onto the tower.
 4. If your block overlaps with the layer below, you advance to the next level and the block shrinks!
 5. Missing completely triggers **GAME OVER** and shows your final score percentage. Press the button again to restart.
+
+## Photo
+<img src="Images-vids/Block%20stacker.jpg" width="400">
+
+## Demo Video
+[Watch the demo video](Images-vids/Block%20stacker%20vid.mp4)
