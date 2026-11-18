@@ -64,7 +64,7 @@ Make sure you have installed the following libraries via the Arduino IDE Library
 5. Missing completely triggers **GAME OVER** and shows your final score percentage. Press the button again to restart.
 
 ## Photo
-<img src="Images-vids/Block%20stacker.jpg" width="200" height="300">
+<img src="Images-vids/Block%20stacker.jpg" width="300" height="400">
 
 ## Demo Video
 <video src="https://github.com/user-attachments/assets/5833ffb8-06fa-485b-ba7c-57dc76dc661a" width="200" height="300" controls></video>
