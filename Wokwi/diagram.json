@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "author": "Yasmine Benkritly",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-mini", "id": "bb1", "top": 257.8, "left": -146.4, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 10.2, "left": -279, "attrs": {} },
+    {
+      "type": "wokwi-max7219-matrix",
+      "id": "matrix1",
+      "top": -263.44,
+      "left": -313.8,
+      "rotate": 90,
+      "attrs": { "chain": "4" }
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": -241.74,
+      "left": 0.37,
+      "rotate": 180,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": 37.8,
+      "left": 101.4,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "matrix1:GND", "uno:GND.1", "black", [ "v0" ] ],
+    [ "matrix1:CLK", "uno:9", "green", [ "v0" ] ],
+    [ "matrix1:CS", "uno:10", "green", [ "v0" ] ],
+    [ "matrix1:DIN", "uno:11", "green", [ "v0" ] ],
+    [ "oled1:SDA", "uno:A4", "green", [ "v0" ] ],
+    [ "oled1:SCL", "uno:A5", "green", [ "v0" ] ],
+    [ "oled1:VCC", "bb1:12t.a", "red", [ "v432", "h-86.55" ] ],
+    [ "oled1:GND", "uno:GND.2", "black", [ "v0" ] ],
+    [ "joystick1:GND", "uno:GND.3", "black", [ "v0" ] ],
+    [ "joystick1:VCC", "bb1:12t.b", "red", [ "v0" ] ],
+    [ "joystick1:SEL", "uno:2", "green", [ "v-134.4", "h-201.6" ] ],
+    [ "uno:5V", "bb1:12t.c", "red", [ "v0" ] ],
+    [ "matrix1:V+", "bb1:12t.d", "red", [ "v354.88", "h95.6" ] ],
+    [ "joystick1:HORZ", "uno:A0", "green", [ "v0" ] ],
+    [ "joystick1:VERT", "uno:A1", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
