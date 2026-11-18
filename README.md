@@ -31,9 +31,9 @@ A microcontroller-powered Tetris-style arcade game built around custom hardware.
 * **Black Wire (-)** $\rightarrow$ Connected to Arduino **`GND`**.
 
 ### 2. LED Matrix Connections (SPI)
-* **DATA (DIN)** $\rightarrow$ Pin 10
-* **CLK** $\rightarrow$ Pin 13
-* **CS** $\rightarrow$ Pin 12
+* **DATA (DIN)** $\rightarrow$ Pin 11
+* **CLK** $\rightarrow$ Pin 9
+* **CS** $\rightarrow$ Pin 10
 * **VCC & GND** $\rightarrow$ 5V and GND
 
 ### 3. OLED Display Connections (I2C)
@@ -43,6 +43,8 @@ A microcontroller-powered Tetris-style arcade game built around custom hardware.
 
 ### 4. Joystick Connections
 * **SW (Button)** $\rightarrow$ Pin 2 (configured with internal pull-up)
+* **VRX (Button)** $\rightarrow$ Arduino **A0**
+* **VRY (Button)** $\rightarrow$ Arduino **A1**
 
 ---
 
